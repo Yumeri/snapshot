@@ -72,7 +72,7 @@ void CaptureScreen::keyPressEvent(QKeyEvent *event){
     if(event->key()==Qt::Key_Escape){
         close();
     }
-    if(event->key()==Qt::Key_Return|| event->key()==Qt::Key_Enter){
+    if(event->key()==Qt::Key_Return|| event->key()==Qt::Key_Enter||event->key()==Qt::Key_Space){
         signalCompleteCapture(m_capturePixmap);
         close();
     }

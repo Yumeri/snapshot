@@ -18,6 +18,7 @@ public:
 private slots:
     void on_pushButton_clicked();
     void onCompleteCapture(QPixmap captureImage);
+
 private:
     Ui::Widget *ui;
 
